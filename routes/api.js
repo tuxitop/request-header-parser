@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/whoami', (req, res, next) => {
-    let ip = req.ip;
+    let ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     let os, lanuage;
     // test if there is an IPv6 string and trim it
     if (ip.indexOf(":") > -1) {
