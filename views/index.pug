@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1= title
+    h2 Guide
+    p.
+        Visiting "/api/whoami" on this website will return a JSON API containing
+        your IP address, language and your operating system.
+    h2 Example usage
+    p
+        code
+            a(href="/api/whoami") #{baseURL}/api/whoami
+    h2 Example output
+    p
+        code {"ipaddress":"X.X.X.X","language":"en-US","software":"X11; Linux x86_64"}
+    h2 More info
+    p you can find More information and the source code of this website at 
+        a(href="https://github.com/tuxitop/request-header-parser") github.

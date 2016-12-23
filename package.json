@@ -1,0 +1,36 @@
+{
+  "name": "request-header-parser",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha",
+    "production": "forever ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "forever": "^0.15.3",
+    "morgan": "~1.7.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "description": "A training application for freecodecamp.com",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxitop/timestamp-microservice.git"
+  },
+  "author": "Ali Mousavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxitop/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/tuxitop/timestamp-microservice#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
+  },
+  "engines": {
+    "node": "7.2.x"
+  }
+}
