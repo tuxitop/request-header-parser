@@ -12,7 +12,7 @@
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "nodemon": "^1.19.2",
-    "pm2": "^3.5.1",
+    "pm2": "^5.2.2",
     "pug": "^2.0.0-beta6"
   },
   "description": "A training application for freecodecamp.com",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/tuxitop/timestamp-microservice#readme",
   "devDependencies": {
-    "mocha": "^6.2.0",
+    "mocha": "^6.2.3",
     "supertest": "^4.0.1"
   },
   "engines": {
